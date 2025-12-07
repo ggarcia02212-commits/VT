@@ -54,7 +54,8 @@ def _normalize_cnmv_nifs(cfg: dict):
         return [str(x).strip() for x in raw if str(x).strip()]
     return []
 
-CNMV_NIFS = _normalize_cnmv_nifs(CFG)
+#CNMV_NIFS = _normalize_cnmv_nifs(CFG)
+CNMV_NIFS = []  # Desactiva CNMV: no se consulta ni se añade al correo
 CNMV_LANG = (CFG.get("cnmv_lang") or "es").lower()
 
 # ========= RED =========
@@ -667,6 +668,7 @@ if __name__ == "__main__":
     if kw_env and not kws:
         kws = [k.strip() for k in kw_env.split("|") if k.strip()]
     main(keyword=kws, tzname=tzname)
+
 
 
 
