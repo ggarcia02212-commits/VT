@@ -3,6 +3,33 @@ cnmv_nifs: "A-28294726"
 # Puedes poner una o varias entre comillas. 
 # Si no quieres filtro, deja las comillas vacías: ""
 keywords:
+  - "code"
+  - "rule"
+  - "regulation"
+  - "low carbon"
+  - "industry"
+  - "industrial"
+  - "methodology"
+  - "sandbox"
+  - "regulates"
+  - "regulatory"
+  - "ley"
+  - "decreto"
+  - "aprueba"
+  - "reglas"
+  - "regulación"
+  - "ley"
+  - "aprueba" 
+  - "reglas"
+  - "regulación"
+  - "energía"
+  - "energético"
+  - "electricidad"
+  - "gas"
+  - "renovable"
+  - "baterías"
+  - "solar"
+  - "eólica"
 
 
 # 🌍 Zona horaria (normalmente no se toca).
@@ -16,14 +43,35 @@ hours_recent: 24
 # 📧 A qué correos se enviará el resumen.
 # Puedes añadir más poniendo cada uno en una línea nueva con "-".
 to_emails:
-  - "anartz2001@gmail.com"
+  - "ggarcia@eve.eus"
 
 # 🌐 Medios o páginas de donde se sacan las noticias.
 # Puedes añadir o quitar medios fácilmente copiando un bloque.
 # Cada bloque necesita un nombre, una URL y el número máximo de artículos.
 sources:
-  - name: "elCorreo"
-    url: "https://www.elcorreo.com/"
+  - name: "UK"
+    url: "https://www.ofgem.gov.uk/news-and-insight/press-releases"
+    max_to_fetch: 400
+  - name: "UK2"
+    url: "https://www.ofgem.gov.uk/consultations/consultations-and-calls-input"
+    max_to_fetch: 400
+  - name: "UK3"
+    url: "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
+    max_to_fetch: 400
+  - name: "Italia"
+    url: " https://www.mase.gov.it/portale/web/guest/comunicati-stampa"
+    max_to_fetch: 400
+  - name: "CRE"
+    url: "https://www.cre.fr/actualites/toute-lactualite.html"
+    max_to_fetch: 400
+  - name: "BMWE"
+    url: "https://www.recht.bund.de/SiteGlobals/Forms/Suche/Expertensuche_Formular.html?resourceId=196172&input_=196116&pageLocale=de&templateQueryString=Elektrizit%C3%A4t%20und%20Gas&submit=Suchen&lastChangeVdAfter=&lastChangeVdBefore=&lastChangeAdAfter=&lastChangeAdBefore=&bgblnr=&fnanr=&gestanr=&federfuehrung=&federfuehrung.GROUP=1&cl2Categories_year=2025&cl2Taxonomies_Sachgebiete_fq=%22Wirtschaftsrecht/Bergbau,%20Kernenergie,%20Elektrizit%C3%A4t,%20Gas,%20Wasserwirtschaft,%20Energieversorgung%22#search-extended"
+    max_to_fetch: 400
+  - name: "ERSE"
+    url: "https://www.erse.pt/biblioteca/legislacao/"
+    max_to_fetch: 400
+  - name: "Noticias juridicas"
+    url: "https://noticias.juridicas.com/base_datos/"
     max_to_fetch: 400
   
  
