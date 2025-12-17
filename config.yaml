@@ -42,8 +42,10 @@ hours_recent: 24
 
 # 📧 A qué correos se enviará el resumen.
 # Puedes añadir más poniendo cada uno en una línea nueva con "-".
-to_emails:
-  - "ggarcia@eve.eus"
+email:
+  user: "ggarcia@eve.eus"   # remitente
+  to_emails:
+    - "ggarcia@eve.eus"     # destinatarios
 
 # 🌐 Medios o páginas de donde se sacan las noticias.
 # Puedes añadir o quitar medios fácilmente copiando un bloque.
