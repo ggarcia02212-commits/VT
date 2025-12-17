@@ -3,33 +3,7 @@ cnmv_nifs: "A-28294726"
 # Puedes poner una o varias entre comillas. 
 # Si no quieres filtro, deja las comillas vacías: ""
 keywords:
-  - "code"
-  - "rule"
-  - "regulation"
-  - "low carbon"
-  - "industry"
-  - "industrial"
-  - "methodology"
-  - "sandbox"
-  - "regulates"
-  - "regulatory"
-  - "ley"
-  - "decreto"
-  - "aprueba"
-  - "reglas"
-  - "regulación"
-  - "ley"
-  - "aprueba" 
-  - "reglas"
-  - "regulación"
-  - "energía"
-  - "energético"
-  - "electricidad"
-  - "gas"
-  - "renovable"
-  - "baterías"
-  - "solar"
-  - "eólica"
+  - ""
 
 
 # 🌍 Zona horaria (normalmente no se toca).
@@ -38,7 +12,7 @@ tzname: "Europe/Madrid"
 
 # ⏱️ Cuántas horas hacia atrás se buscan noticias recientes.
 # 24 significa "últimas 24 horas".
-hours_recent: 24
+hours_recent: 2400
 
 # 📧 A qué correos se enviará el resumen.
 # Puedes añadir más poniendo cada uno en una línea nueva con "-".
