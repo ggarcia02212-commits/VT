@@ -98,9 +98,9 @@ def http_get(url: str, timeout: int = TIMEOUT) -> requests.Response:
 # ========= EMAIL (Gmail SSL 465) =========
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
-SMTP_USER = "anartz.azumendi@brainandcode.tech"
+SMTP_USER = "ggarcia@eve.eus"
 SMTP_PASS = os.getenv("SMTP_PASS")
-TO_EMAILS = CFG.get("to_emails", ["anartz2001@gmail.com"])
+TO_EMAILS = CFG.get("to_emails", ["ggarcia@eve.eus"])
 
 # ========= UTILIDADES =========
 def norm(s: str) -> str:
@@ -668,6 +668,7 @@ if __name__ == "__main__":
     if kw_env and not kws:
         kws = [k.strip() for k in kw_env.split("|") if k.strip()]
     main(keyword=kws, tzname=tzname)
+
 
 
 
